@@ -1,0 +1,17 @@
+.header{
+	 color: green;
+	 font-size: 2rem;
+}
+p {
+	text-align: justify;
+	text-indent: 1.5em;
+}
+.code-block{
+	margin-top: 1em;
+	padding-top: 0.1em;
+	margin-bottom: 1em;
+	padding-bottom: 0.1em;
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+	background-color:#DBFFD2;
+	color:#588030;
+}

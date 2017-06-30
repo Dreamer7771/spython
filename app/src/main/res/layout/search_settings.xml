@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <CheckBox
+        android:id="@+id/search_setts_chbx_reg_exp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/search_settings_reg_exp">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/search_setts_chbx_words"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/search_settings_words">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/search_setts_chbx_match_case"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/search_settings_match_case">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/search_setts_chbx_loop_search"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/search_settings_loop_search">
+    </CheckBox>
+    <Button
+        android:id="@+id/search_settings_close_but"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="7dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/search_settings_close">
+    </Button>
+</LinearLayout>

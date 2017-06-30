@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<substElements>
+    <substElement indent="6" type="0">
+        <alias>phase</alias>
+		<text>phase()</text>
+    </substElement>
+	<substElement indent="6" type="0">
+        <alias>polar</alias>
+		<text>polar()</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>rect</alias>
+		<text>rect(r, phi)</text>
+    </substElement>
+	<substElement indent="4" type="0">
+        <alias>exp</alias>
+		<text>exp(x)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>log</alias>
+		<text>log(x[, base])</text>
+    </substElement>
+	<substElement indent="6" type="0">
+        <alias>log10</alias>
+		<text>log10()</text>
+    </substElement>
+	<substElement indent="6" type="0">
+        <alias>sqrt</alias>
+		<text>sqrt()</text>
+    </substElement>
+	<substElement indent="5" type="0">
+        <alias>acos</alias>
+		<text>acos()</text>
+    </substElement>
+	<substElement indent="5" type="0">
+        <alias>asin</alias>
+		<text>asin()</text>
+    </substElement>
+	<substElement indent="5" type="0">
+        <alias>atan</alias>
+		<text>atan()</text>
+    </substElement>
+	<substElement indent="4" type="0">
+        <alias>cos</alias>
+		<text>cos()</text>
+    </substElement>
+	<substElement indent="4" type="0">
+        <alias>sin</alias>
+		<text>sin()</text>
+    </substElement>
+	<substElement indent="4" type="0">
+        <alias>tan</alias>
+		<text>tan()</text>
+    </substElement>
+	<substElement indent="6" type="0">
+        <alias>acosh</alias>
+		<text>acosh()</text>
+    </substElement>
+	<substElement indent="6" type="0">
+        <alias>asinh</alias>
+		<text>asinh()</text>
+    </substElement>
+	<substElement indent="6" type="0">
+        <alias>atanh</alias>
+		<text>atanh()</text>
+    </substElement>
+	<substElement indent="5" type="0">
+        <alias>cosh</alias>
+		<text>cosh()</text>
+    </substElement>
+	<substElement indent="5" type="0">
+        <alias>sinh</alias>
+		<text>sinh()</text>
+    </substElement>
+	<substElement indent="5" type="0">
+        <alias>tanh</alias>
+		<text>tanh()</text>
+    </substElement>
+	<substElement indent="9" type="0">
+        <alias>isfinite</alias>
+		<text>isfinite()</text>
+    </substElement>
+	<substElement indent="6" type="0">
+        <alias>isinf</alias>
+		<text>isinf()</text>
+    </substElement>
+	<substElement indent="6" type="0">
+        <alias>isnan</alias>
+		<text>isnan()</text>
+    </substElement>
+	<substElement indent="-1" type="2">
+        <alias>pi</alias>
+		<text>pi</text>
+    </substElement>
+	<substElement indent="-1" type="2">
+        <alias>e</alias>
+		<text>e</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+        <alias>cmath</alias>
+		<text>cmath</text>
+    </substElement>
+	<substElement indent="8" type="0">
+        <alias>abspath</alias>
+		<text>abspath()</text>
+    </substElement>
+	<substElement indent="9" type="0">
+        <alias>basename</alias>
+		<text>basename()</text>
+    </substElement>
+	<substElement indent="13" type="0">
+        <alias>commonprefix</alias>
+		<text>commonprefix()</text>
+    </substElement>
+	<substElement indent="8" type="0">
+        <alias>dirname</alias>
+		<text>dirname()</text>
+    </substElement>
+	<substElement indent="7" type="0">
+        <alias>exists</alias>
+		<text>exists()</text>
+    </substElement>
+	<substElement indent="11" type="0">
+        <alias>expanduser</alias>
+		<text>expanduser()</text>
+    </substElement>
+	<substElement indent="11" type="0">
+        <alias>expandvars</alias>
+		<text>expandvars()</text>
+    </substElement>
+	<substElement indent="9" type="0">
+        <alias>getatime</alias>
+		<text>getatime()</text>
+    </substElement>
+	<substElement indent="9" type="0">
+        <alias>getmtime</alias>
+		<text>getmtime()</text>
+    </substElement>
+	<substElement indent="9" type="0">
+        <alias>getctime</alias>
+		<text>getctime()</text>
+    </substElement>
+	<substElement indent="8" type="0">
+        <alias>getsize</alias>
+		<text>getsize()</text>
+    </substElement>
+	<substElement indent="6" type="0">
+        <alias>isabs</alias>
+		<text>isabs()</text>
+    </substElement>
+	<substElement indent="7" type="0">
+        <alias>isfile</alias>
+		<text>isfile()</text>
+    </substElement>
+	<substElement indent="6" type="0">
+        <alias>isdir</alias>
+		<text>isdir()</text>
+    </substElement>
+	<substElement indent="8" type="0">
+        <alias>islink</alias>
+		<text>islink()</text>
+    </substElement>
+	<substElement indent="7" type="0">
+        <alias>ismount</alias>
+		<text>ismount()</text>
+    </substElement>
+	<substElement indent="5" type="0">
+        <alias>join</alias>
+		<text>join()</text>
+    </substElement>
+	<substElement indent="9" type="0">
+        <alias>normcase</alias>
+		<text>normcase()</text>
+    </substElement>
+	<substElement indent="9" type="0">
+        <alias>normpath</alias>
+		<text>normpath()</text>
+    </substElement>
+	<substElement indent="9" type="0">
+        <alias>realpath</alias>
+		<text>realpath()</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>relpath</alias>
+		<text>relpath(path, start=None)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>samefile</alias>
+		<text>samefile(path1, path2)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>sameopenfile</alias>
+		<text>sameopenfile(fp1, fp2)</text>
+    </substElement>
+	<substElement indent="6" type="0">
+        <alias>split</alias>
+		<text>split()</text>
+    </substElement>
+	<substElement indent="11" type="0">
+        <alias>splitdrive</alias>
+		<text>splitdrive()</text>
+    </substElement>
+	<substElement indent="9" type="0">
+        <alias>splitext</alias>
+		<text>splitext()</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>supports_unicode_filenames </alias>
+		<text>supports_unicode_filenames</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+        <alias>os</alias>
+		<text>os</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+        <alias>sys</alias>
+		<text>sys</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>seed</alias>
+		<text>seed([X], version=2)</text>
+    </substElement>
+	<substElement indent="9" type="0">
+        <alias>getstate</alias>
+		<text>getstate()</text>
+    </substElement>
+	<substElement indent="9" type="0">
+        <alias>setstate</alias>
+		<text>setstate()</text>
+    </substElement>
+	<substElement indent="12" type="0">
+        <alias>getrandbits</alias>
+		<text>getrandbits()</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>randrange</alias>
+		<text>randrange(start, stop, step)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>randint</alias>
+		<text>randint(A, B)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>choice</alias>
+		<text>choice(sequence)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>shuffle</alias>
+		<text>shuffle(sequence, [rand])</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>sample</alias>
+		<text>sample(population, k)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>random</alias>
+		<text>random()</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>uniform</alias>
+		<text>uniform(A, B)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>triangular</alias>
+		<text>triangular(low, high, mode)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>betavariate</alias>
+		<text>betavariate(alpha, beta)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+        <alias>expovariate</alias>
+		<text>expovariate(lambd)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>gammavariate</alias>
+		<text>gammavariate(alpha, beta)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>gauss</alias>
+		<text>gauss(value, stand_dev)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>lognormvariate</alias>
+		<text>lognormvariate(mu, sigma) </text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>normalvariate</alias>
+		<text>normalvariate(mu, sigma)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>vonmisesvariate</alias>
+		<text>vonmisesvariate(mu, kappa)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>paretovariate</alias>
+		<text>paretovariate(alpha)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>weibullvariate</alias>
+		<text>weibullvariate(alpha, beta)</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>argv</alias>
+		<text>argv</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>byteorder</alias>
+		<text>byteorder</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>builtin_module_names</alias>
+		<text>builtin_module_names</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>call_tracing</alias>
+		<text>call_tracing(func, args)</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>copyright</alias>
+		<text>copyright</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>_current_frames</alias>
+		<text>_current_frames()</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>dllhandle</alias>
+		<text>dllhandle</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>exc_info</alias>
+		<text>exc_info()</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>exec_prefix</alias>
+		<text>exec_prefix</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>executable</alias>
+		<text>executable</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>exit</alias>
+		<text>exit([arg])</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>flags</alias>
+		<text>flags</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>float_info</alias>
+		<text>float_info</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>float_repr_style</alias>
+		<text>float_repr_style</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>getdefaultencoding</alias>
+		<text>getdefaultencoding()</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>getdlopenflags</alias>
+		<text>getdlopenflags()</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>getfilesystemencoding</alias>
+		<text>getfilesystemencoding()</text>
+    </substElement>
+	<substElement indent="12" type="0">
+	    <alias>getrefcount</alias>
+		<text>getrefcount()</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>getrecursionlimit</alias>
+		<text>getrecursionlimit()</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>getsizeof</alias>
+		<text>getsizeof(object[, default])</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>getswitchinterval</alias>
+		<text>getswitchinterval()</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>getwindowsversion</alias>
+		<text>getwindowsversion()</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>hash_info</alias>
+		<text>hash_info</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>hexversion</alias>
+		<text>hexversion</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>implementation</alias>
+		<text>implementation</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>int_info</alias>
+		<text>int_info</text>
+    </substElement>
+	<substElement indent="7" type="0">
+	    <alias>intern</alias>
+		<text>intern()</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>last_type</alias>
+		<text>last_type</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>last_value</alias>
+		<text>last_value</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>last_traceback </alias>
+		<text>last_traceback </text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>maxsize</alias>
+		<text>maxsize</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>maxunicode</alias>
+		<text>maxunicode</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>modules</alias>
+		<text>modules</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>path</alias>
+		<text>path</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>path_importer_cache</alias>
+		<text>path_importer_cache</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>platform</alias>
+		<text>platform</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>prefix</alias>
+		<text>prefix</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>ps1</alias>
+		<text>ps1</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>ps2</alias>
+		<text>ps2</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>dont_write_bytecode</alias>
+		<text>dont_write_bytecode</text>
+    </substElement>
+	<substElement indent="15" type="0">
+	    <alias>setdlopenflags</alias>
+		<text>setdlopenflags()</text>
+    </substElement>
+	<substElement indent="18" type="0">
+	    <alias>setrecursionlimit</alias>
+		<text>setrecursionlimit()</text>
+    </substElement>
+	<substElement indent="18" type="0">
+	    <alias>setswitchinterval</alias>
+		<text>setswitchinterval()</text>
+    </substElement>
+	<substElement indent="9" type="0">
+	    <alias>settrace</alias>
+		<text>settrace()</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>stdin</alias>
+		<text>stdin</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>stdout</alias>
+		<text>stdout</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>stderr</alias>
+		<text>stderr</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>__stdin__</alias>
+		<text>__stdin__</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>__stdout__</alias>
+		<text>__stdout__</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>__stderr__</alias>
+		<text>__stderr__</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>tracebacklimit</alias>
+		<text>tracebacklimit</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>version</alias>
+		<text>version</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>api_version</alias>
+		<text>api_version</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>version_info</alias>
+		<text>version_info</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>warnoptions</alias>
+		<text>warnoptions</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>altzone</alias>
+		<text>altzone</text>
+    </substElement>
+	<substElement indent="8" type="0">
+	    <alias>asctime</alias>
+		<text>asctime([t])</text>
+    </substElement>
+	<substElement indent="6" type="0">
+	    <alias>clock</alias>
+		<text>clock()</text>
+    </substElement>
+	<substElement indent="6" type="0">
+	    <alias>ctime</alias>
+		<text>ctime([sec])</text>
+    </substElement>
+	<substElement indent="-1" type="-1">
+	    <alias>daylight</alias>
+		<text>daylight</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>gmtime</alias>
+		<text>gmtime([sec])</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>localtime</alias>
+		<text>localtime([sec])</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>mktime</alias>
+		<text>mktime(t)</text>
+    </substElement>
+	<substElement indent="6" type="0">
+	    <alias>sleep</alias>
+		<text>sleep(sec)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>strftime</alias>
+		<text>strftime(format, [t])</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>strptime</alias>
+		<text>strptime(строка [, формат])</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>struct_time</alias>
+		<text>struct_time</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>time</alias>
+		<text>time()</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>timezone</alias>
+		<text>timezone</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>tzname</alias>
+		<text>tzname</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>tzname</alias>
+		<text>tzname</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>Fraction</alias>
+		<text>Fraction</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>limit_denominator</alias>
+		<text>limit_denominator()</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>gcd</alias>
+		<text>gcd(a, b)</text>
+    </substElement>
+	<substElement indent="5" type="0">
+	    <alias>copy</alias>
+		<text>copy()</text>
+    </substElement>
+	<substElement indent="9" type="0">
+	    <alias>deepcopy</alias>
+		<text>deepcopy(x)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>dump</alias>
+		<text>dump(obj, file, protocol=None, *, fix_imports=True)</text>
+    </substElement>
+	<substElement indent="-1" type="0">
+	    <alias>dumps</alias>
+		<text>dumps(obj, protocol=None, *, fix_imports=True)</text>
+    </substElement>
+	<substElement indent="5" type="0">
+	    <alias>load</alias>
+		<text>load()</text>
+    </substElement>
+	<substElement indent="5" type="0">
+	    <alias>load</alias>
+		<text>load()</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>BaseException</alias>
+		<text>BaseException</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>SystemExit</alias>
+		<text>SystemExit</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>KeyboardInterrupt</alias>
+		<text>KeyboardInterrupt</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>GeneratorExit</alias>
+		<text>GeneratorExit</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>Exception</alias>
+		<text>Exception</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>StopIteration</alias>
+		<text>StopIteration</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>ArithmeticError</alias>
+		<text>ArithmeticError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>FloatingPointError</alias>
+		<text>FloatingPointError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>OverflowError</alias>
+		<text>OverflowError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>ZeroDivisionError</alias>
+		<text>ZeroDivisionError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>AssertionError</alias>
+		<text>AssertionError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>AttributeError</alias>
+		<text>AttributeError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>BufferError</alias>
+		<text>BufferError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>EOFError</alias>
+		<text>EOFError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>ImportError</alias>
+		<text>ImportError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>LookupError</alias>
+		<text>LookupError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>MemoryError</alias>
+		<text>MemoryError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>NameError</alias>
+		<text>NameError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>UnboundLocalError</alias>
+		<text>UnboundLocalError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>OSError</alias>
+		<text>OSError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>BlockingIOError</alias>
+		<text>BlockingIOError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>ChildProcessError</alias>
+		<text>ChildProcessError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>ConnectionError</alias>
+		<text>ConnectionError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>BrokenPipeError</alias>
+		<text>BrokenPipeError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>ConnectionAbortedError</alias>
+		<text>ConnectionAbortedError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>ConnectionRefusedError</alias>
+		<text>ConnectionRefusedError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>ConnectionResetError</alias>
+		<text>ConnectionResetError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>FileExistsError</alias>
+		<text>FileExistsError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>FileNotFoundError</alias>
+		<text>FileNotFoundError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>InterruptedError </alias>
+		<text>InterruptedError </text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>IsADirectoryError</alias>
+		<text>IsADirectoryError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>NotADirectoryError</alias>
+		<text>NotADirectoryError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>PermissionError</alias>
+		<text>PermissionError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>ProcessLookupError</alias>
+		<text>ProcessLookupError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>TimeoutError</alias>
+		<text>TimeoutError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>ReferenceError</alias>
+		<text>ReferenceError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>RuntimeError</alias>
+		<text>RuntimeError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>NotImplementedError</alias>
+		<text>NotImplementedError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>SyntaxError</alias>
+		<text>SyntaxError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>IndentationError</alias>
+		<text>IndentationError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>TabError</alias>
+		<text>TabError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>SystemError</alias>
+		<text>SystemError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>TypeError</alias>
+		<text>TypeError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>ValueError</alias>
+		<text>ValueError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>UnicodeError</alias>
+		<text>UnicodeError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>UnicodeEncodeError</alias>
+		<text>UnicodeEncodeError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>UnicodeDecodeError</alias>
+		<text>UnicodeDecodeError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>UnicodeTranslateError</alias>
+		<text>UnicodeTranslateError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>Warning</alias>
+		<text>Warning</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>PickleError</alias>
+		<text>PickleError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>PicklingError</alias>
+		<text>PicklingError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>UnpicklingError</alias>
+		<text>UnpicklingError</text>
+    </substElement>
+	<substElement indent="-1" type="1">
+	    <alias>UnpicklingError</alias>
+		<text>UnpicklingError</text>
+    </substElement>
+</substElements>

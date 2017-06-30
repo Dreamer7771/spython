@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<helpContent>
+    <helpElement name="functions">
+        <aliasList>
+            <alias>def</alias>
+            <alias>function</alias>
+        </aliasList>
+        <filePath>functions.html</filePath>
+		<children>
+				<helpElement name="func1">
+					<alias>dd</alias>
+					<alias>func</alias>
+				</aliasList>
+				<filePath>functions2.html</filePath>
+				<children>
+				</children>
+		</children>
+    </helpElement>
+</helpContent>

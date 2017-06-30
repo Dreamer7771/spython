@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">SPython</string>
+    <string name="openMAButtonTitle">Open</string>
+    <string name="createMAButtonTitle">Create new</string>
+    <string name="settingsMAButtonTitle">App settings</string>
+    <string name="projectsDirName">projects</string>
+    <string name="openFileLocationString">Location</string>
+    <string name="defaultFileName">New file</string>
+    <string name="tabsFileName">file_data.dat</string>
+    <string name="closeOptionCMenu">Close file</string>
+    <string name="renameFileOptionCMenu">Rename file</string>
+    <string name="removeSnippetOptionCMenu">Remove snippet</string>
+    <string name="modifySnippetOptionCMenu">Modify snippet</string>
+    <string name="removeSnippetFolderOptionCMenu">Remove folder</string>
+    <string name="modifySnippetFolderOptionCMenu">Rename folder</string>
+    <string name="removeFragmentOptionCMenu">Remove fragment</string>
+    <string name="modifyFragmentOptionCMenu">Modify fragment</string>
+    <string name="convertFragmentToSnippetOptionCMenu">Create snippet from fragment</string>
+
+    <string name="renameFileDialogMsg">Rename file</string>
+    <string name="renameButtonLabel">Rename</string>
+    <string name="incorrectFileNameMsgError">Incorrect file name</string>
+    <string name="nonSavedMsg">this file has unsaved changes. Close it without saving?</string>
+    <string name="fileString">File name</string>
+    <string name="search_settings_words">Words</string>
+    <string name="search_settings_match_case">Match case</string>
+    <string name="search_settings_loop_search">Loop search</string>
+    <string name="search_settings_reg_exp">Regular expression</string>
+    <string name="search_settings_title">Search settings</string>
+    <string name="search_settings_close">Close</string>
+    <string name="search_no_matches">No matches found</string>
+    <string name="search_reg_exp_parsing_error">Regular expression is invalid</string>
+    <string name="saveFileActivityTitle">Save file</string>
+    <string name="openFileActivityTitle">Open file</string>
+    <string name="helpActivityTitle">Help</string>
+    <string name="createSnippetActivityTitle">Create new snippet</string>
+    <string name="changeSnippetActivityTitle">Modify snippet</string>
+    <string name="changeFragmentActivityTitle">Modify fragment</string>
+    <string name="gotoLineDialogTitle">Go to Line</string>
+    <string name="gotoDialogConfirmButtonLabel">Go to</string>
+    <string name="toastIncorrectLineNumber">Incorrect line number</string>
+    <string name="saveChanges">Save changes</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="createSnippetFolderDialogTitle">Create snippet folder</string>
+    <string name="createSnippetFolderConfirmButtonLabel">Length of string should be less than 50 symbols</string>
+    <string name="createString">Create</string>
+    <string name="renameSnippetFolderDialogTitle">Rename snippet folder</string>
+    <string name="renameSnippetFolderConfirmButtonLabel">Rename</string>
+    <string name="aliasAlreadyExistsMsgError">This alias already exists</string>
+    <string name="aliasesHeader">Keywords</string>
+    <string name="warningString">Warning</string>
+    <string name="removeViewedSnippetsQuestion">Do you want to clear current snippet folder?</string>
+    <string name="styleSettingsItem">Style</string>
+    <string name="textSizeSettingsItem">Text size (pt)</string>
+    <string name="exampleStringSettings">The quick brown fox jumps over the lazy dog</string>
+    <string-array name="stylesList">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string name="selectLineSettingsItem">Highlight selected line</string>
+    <string name="highlightSyntaxSettingsItem">Highlight syntax by default</string>
+    <string name="extractBlocksSettingsItem">Show code elements by default</string>
+    <string name="autocompSettingsItem">Auto-suggestion by default</string>
+    <string name="commandsCountUnlimitedValueSettingsItem">Unlimited</string>
+    <string name="commandsCountUnlimitedHeaderSettingsItem">Maximum commands count in history</string>
+    <string name="helpIsNotLoaded">Help is not found</string>
+    <string name="aboutText">Github:\nEmail:anatoly1410@gmail.com\nAll your comments and suggestions are welcome\nBased on QPython - www.qpython.com</string>
+    <string name="commmonSettingCategory">Common settings</string>
+    <string name="navigationSettingCategory">Navigation list settings</string>
+    <string name="codeEditorSettingCategory">Code editor settings</string>
+    <string name="spinnerSortingTypeSettingsItem">Sorting in navigation list</string>
+    <string-array name="sortingTypesList">
+        <item>Alphabetic</item>
+        <item>By order in code</item>
+    </string-array>
+    <string name="showClassesCombobox">Show classes</string>
+    <string name="showFunctionsCombobox">Show functions</string>
+</resources>

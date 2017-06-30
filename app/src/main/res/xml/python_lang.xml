@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<syntaxDescription>
+	<embeddedSnippets>
+		<embeddedSnippet  indent="4">
+			<alias>def</alias>
+			<text>def ():
+			</text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="3">
+			<alias>if</alias>
+			<text>if :
+			</text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="6">
+			<alias>while</alias>
+			<text>while :
+			</text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="4">
+			<alias>for</alias>
+			<text>for :
+			</text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>in</alias>
+			<text>in </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>import</alias>
+			<text>import </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>return</alias>
+			<text>return </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>try</alias>
+			<text>try:</text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>yield</alias>
+			<text>yield </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>finally</alias>
+			<text>finally:</text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>pass</alias>
+			<text>pass </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>raise</alias>
+			<text>raise </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>lambda</alias>
+			<text>lambda </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>is</alias>
+			<text>is </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>else</alias>
+			<text>else </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>elif</alias>
+			<text>elif </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>break</alias>
+			<text>break </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>continue</alias>
+			<text>continue </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>and</alias>
+			<text>and </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>or</alias>
+			<text>or </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>not</alias>
+			<text>not </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="6">
+			<alias>print</alias>
+			<text>print() </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>as</alias>
+			<text>as </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>not</alias>
+			<text>not </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>assert</alias>
+			<text>assert </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>with</alias>
+			<text>with </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>from</alias>
+			<text>from </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>del</alias>
+			<text>del </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>global</alias>
+			<text>global </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>except</alias>
+			<text>except </text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="-1">
+			<alias>exec</alias>
+			<text>exec </text>
+		</embeddedSnippet>
+	</embeddedSnippets>
+	<keyWords>
+		<keyWord>def</keyWord>
+		<keyWord>if</keyWord>
+		<keyWord>while</keyWord>
+		<keyWord>for</keyWord>
+		<keyWord>in</keyWord>
+		<keyWord>import</keyWord>
+		<keyWord>return</keyWord>
+		<keyWord>try</keyWord>
+		<keyWord>yield</keyWord>
+		<keyWord>finally</keyWord>
+		<keyWord>pass</keyWord>
+		<keyWord>raise</keyWord>
+		<keyWord>lambda</keyWord>
+		<keyWord>is</keyWord>
+		<keyWord>else</keyWord>
+		<keyWord>elif</keyWord>
+		<keyWord>break</keyWord>
+		<keyWord>continue</keyWord>
+		<keyWord>and</keyWord>
+		<keyWord>or</keyWord>
+		<keyWord>not</keyWord>
+		<keyWord>print</keyWord>
+		<keyWord>as</keyWord>	
+		<keyWord>assert</keyWord>
+		<keyWord>with</keyWord>
+		<keyWord>from</keyWord>
+		<keyWord>class</keyWord>
+		<keyWord>del</keyWord>
+		<keyWord>global</keyWord>
+		<keyWord>except</keyWord>
+		<keyWord>exec</keyWord>
+	</keyWords>
+	<syntaxBlocks>
+		<syntaxBlock name="string">("[^"\n]*?")|('[^'\n]*?')</syntaxBlock>
+		<syntaxBlock name="singleLineComments">#[^\n]*?\n</syntaxBlock>
+		<syntaxBlock name="multiLineComments">("""(.|\n)*?""")|('''(.|\n)*?''')</syntaxBlock>
+		<syntaxBlock name="decorator">@[^\n]*?\n</syntaxBlock>
+		<syntaxBlock name="constant">self|None|True|False|NotImplemented|Ellipsis|__debug__|__debug__|__name__</syntaxBlock>
+	</syntaxBlocks>
+</syntaxDescription>

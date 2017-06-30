@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:editorApp="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/action_bar_open_button"
+        android:title="@string/openMAButtonTitle"
+        editorApp:showAsAction="always"
+        android:icon="@mipmap/ic_open_file_action"
+        android:onClick="onOpenActionClick">
+    </item>
+    <item
+        android:id="@+id/action_bar_create_button"
+        android:title="@string/createMAButtonTitle"
+        editorApp:showAsAction="always"
+        android:icon="@mipmap/ic_action_bar_create"
+        android:onClick="onCreateActionClick">
+    </item>
+    <item
+        android:id="@+id/action_bar_settings_button"
+        android:title="@string/settingsMAButtonTitle"
+        editorApp:showAsAction="always"
+        android:icon="@mipmap/ic_settings_white"
+        android:onClick="onSettingsActionClick">
+    </item>
+    <item
+        android:id="@+id/action_bar_about_button"
+        android:title="@string/settingsMAButtonTitle"
+        editorApp:showAsAction="always"
+        android:icon="@mipmap/ic_about"
+        android:onClick="onAboutActionClick">
+    </item>
+</menu>

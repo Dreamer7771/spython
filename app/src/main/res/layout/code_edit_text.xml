@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.anatoly1410.editorapp.Presentation.CScrollView
+        android:id="@+id/codeScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <HorizontalScrollView
+            android:id="@+id/hCodeScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="65dp">
+            <FrameLayout
+                android:id="@+id/codeEditLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.anatoly1410.editorapp.Presentation.CEditText
+                    android:id="@+id/mainEdit"
+                    android:layout_width="match_parent"
+                    android:layout_weight = "10"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop = "true"
+                    android:gravity = "top"
+                    android:inputType="textMultiLine|textNoSuggestions"
+
+                    android:background="#00000000"
+                    android:imeOptions="normal"
+                    android:textCursorDrawable="@drawable/edittext_cursor"/>
+
+            </FrameLayout>
+        </HorizontalScrollView>
+    </com.anatoly1410.editorapp.Presentation.CScrollView>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<syntaxDescription>
+	<embeddedSnippets>
+		<embeddedSnippet  indent="4">
+			<alias>def</alias>
+			<text>def ():
+			</text>
+		</embeddedSnippet>
+		<embeddedSnippet  indent="3">
+			<alias>if</alias>
+			<text>if :
+			</text>
+		</embeddedSnippet>
+	</embeddedSnippets>
+	<keyWords>
+		<keyWord>def</keyWord>
+		<keyWord>if</keyWord>
+	</keyWords>
+	<syntaxBlocks>
+		<syntaxBlock name="string">("[^"\n]*?")|('[^'\n]*?')</syntaxBlock>
+	</syntaxBlocks>
+</syntaxDescription>
